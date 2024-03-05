@@ -1011,9 +1011,24 @@ section,
   margin-bottom: 0;
 }
 
-.about .icon-box:hover i {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+.about .icon-box:hover .bi-pc-display-horizontal {
+  background-color: white;
+  color: #4a28a3 !important;
+}
+
+.about .icon-box:hover .bi-people {
+  background-color: white;
+  color: #fb3f87 !important;
+}
+
+.about .icon-box:hover .bi-person-raised-hand {
+  background-color: white;
+  color: #fdca54 !important;
+}
+
+.about .icon-box:hover .bi-recycle {
+  background-color: white;
+  color: #00936e !important;
 }
 
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
@@ -1134,7 +1149,7 @@ section,
   content: "";
   height: 30px;
   width: 30px;
-  background: rgba(var(--accent-color-rgb), 0.3);
+  background: #fb3f875e;
   border-radius: 50px;
   z-index: 1;
   bottom: -15px;
@@ -2906,4 +2921,40 @@ section,
   width: 15vw;
   background-color: #139474;
   border: 0;
+}
+
+.pink{
+  background-color: #fb3f87 !important;
+  color: white !important;
+}
+
+.pink h3{
+  color: white;
+}
+
+.blue{
+  background-color: #4a28a3 !important;
+  color: white !important;
+}
+
+.blue h3{
+  color: white;
+}
+
+.yellow{
+  background-color: #fdca54 !important;
+  color: white !important;
+}
+
+.yellow h3{
+  color: white;
+}
+
+.green{
+  background-color: #00936e !important;
+  color: white !important;
+}
+
+.green h3{
+  color: white;
 }
