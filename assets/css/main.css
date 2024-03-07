@@ -484,11 +484,6 @@ section {
   margin-bottom: 25px;
 }
 
-.footer .footer-about .logo img {
-  max-height: 40px;
-  margin-right: 6px;
-}
-
 .footer .footer-about .logo span {
   color: var(--heading-color);
   font-size: 30px;
@@ -2907,8 +2902,8 @@ section,
 }
 
 #logo-tfg{
-  width: auto;
-  height: 10vh;
+  width: 19vw;
+  height: 15vh;
   margin-left: -15vw;
 }
 
