@@ -2953,3 +2953,10 @@ section,
 .green h3{
   color: white;
 }
+
+@media (max-width: 1200px) {
+  #logo-tfg{
+    margin-left: 5px;
+    width: 55vw;
+  }
+}
